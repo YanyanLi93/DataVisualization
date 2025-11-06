@@ -1,0 +1,67 @@
+
+@font-face {
+  font-family: "TitleFont";
+  src: url("Solitreo.ttf");
+}
+
+body {
+  background: rgb(242,240,235);
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-family: sans-serif;
+}
+
+.wrap {
+  text-align: center;
+  margin-top: 180px;
+}
+
+h1 {
+  font-family: "TitleFont";
+  font-size: 5pc;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.btn-round {
+  display: inline-block;
+  border-radius: 9999px;
+  padding: 15px 35px;
+  font-size: 100px;
+  font-weight: bold; 
+  text-decoration: none;
+  transition: all 0.4s ease;
+}
+
+.hv-btn-ppl {
+  background-color: wheat;
+  border: 2px solid purple;
+  color: #333;
+  font-size: 1.5pc;
+}
+
+.hv-btn-ppl:hover {
+  background-color: purple;
+  color: wheat;
+  transform: scale(1.15);
+}
+.hv-btn-pp2 {
+  background-color: wheat;
+  border: 2px solid #008000;
+  color: #333;
+  font-size: 1.5pc;
+}
+
+.hv-btn-pp2:hover {
+  background-color: #008000;
+  color: wheat;
+  transform: scale(1.15);
+}
